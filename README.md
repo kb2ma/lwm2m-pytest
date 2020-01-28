@@ -11,13 +11,13 @@ The _Setup_ section below assumes these projects are installed in source code fo
 
 RIOT Apps
 ---------
-[riot-apps](https://github.com/kb2ma/riot-apps): Forked from RIOT-OS/applications, use *lwm2m-client* branch. Uses the LwM2M Client app in the `lwm2m-client` directory.
+[riot-apps](https://github.com/kb2ma/riot-apps): Forked from RIOT-OS/applications, use *lwm2m-client* branch. Uses the LwM2M Client app in the `lwm2m-client` directory. Be sure this app has been built using the 'native' board.
 
 Leshan
 -------
 [Leshan](https://github.com/eclipse/leshan) is a LwM2M server.
 
-Build and run the demo server as shown in the Leshan [README](https://github.com/eclipse/leshan/blob/master/README.md).
+Build the demo server as shown in the Leshan [README](https://github.com/eclipse/leshan/blob/master/README.md). Tests run it in a temporary directory.
 
 
 Setup
