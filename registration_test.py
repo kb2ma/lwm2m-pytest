@@ -80,5 +80,5 @@ def test_register(leshan_server, lwm2m_client):
     # wait for registration to complete
     time.sleep(2)
     
-    lwm2m_client.send_recv('lwm2m state', 'Client state: 3')
+    lwm2m_client.send_recv('lwm2m state', 'Client state: 2')
     
